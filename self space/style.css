@@ -1,0 +1,176 @@
+body
+{
+	margin:0;
+	padding:0;
+}
+img
+{
+	max-width:100%;
+	padding:10px;
+	
+}
+header
+{
+	background-color:#ededed;
+	border-top:5px solid;
+	border-color:#17376a;
+}
+.container
+{
+	
+	width:1200px;
+	margin:auto;
+	display:table;
+}
+.leftbox
+{
+	width:25%;
+	display:table-cell;
+}
+.rightbox
+{
+	width:75%;
+	display:table-cell;
+	
+}
+.icon
+{
+	text-align:right;
+	padding-bottom:10px;
+	
+	
+}
+.icon a
+{
+	padding-right:15px;
+	font-size:30px;
+	color:#17376a;
+	vertical-align:15px;
+	
+}
+.icon img
+{
+	width:15px;
+}
+.bottomleft
+{
+	width:50%;
+	display:table-cell;
+	vertical-align:top;
+}
+.bottomright
+{
+	width:50%;
+	vertical-align:top;
+	display:table-cell;
+	text-align:left;
+}
+h1
+{
+	font-size:2.5em;
+	font-family:"Helvetica Neue Pro Bold", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	color:#17376a;
+}
+h2
+{
+	font-size:1.5em;
+	font-weight:bold;
+	color:#17376a;
+	font-family:"Helvetica Neue Pro Bold", Helvetica, Arial, sans-serif;
+}
+.bottomleft p,ul li 
+{
+	font-size:20px;
+	font-weight:400;
+	color:#666;
+	font-family:"Helvetica Neue Pro Bold", Helvetica, Arial, sans-serif;
+	line-height:1.5;
+	text-align:justify;
+	padding-right:20px;
+	
+}
+.bottomleft p strong 
+{
+	color:#17376a;
+}
+.link
+{
+	color:#17376a;
+	font-weight:bold;
+}
+
+
+.bottomright img
+{
+	max-width:100%;
+	margin:25px 20px;
+	width:70%;
+	
+}
+span
+{
+	font-size:20px;
+	color:#666;
+	font-family:"Helvetica Neue Pro Bold", Helvetica, Arial, sans-serif;
+	text-align:right;
+	
+	
+}
+footer
+{
+	background-color:#17376a;
+}
+p 
+{
+	color:#fff;
+	font-size:20px;
+}
+a
+{
+	padding-right:15px;
+	padding-left:10px;
+	color:#fff;
+	text-decoration:none;
+}
+.button
+{
+	background-color:#ccc;
+	padding:25px 20px;
+	color:#17376a;
+	font-size:25px;
+	font-family:"Helvetica Neue Pro Bold", Helvetica, Arial, sans-serif;
+	font-weight:500;
+	display:inline-block;
+	margin-bottom:25px;
+	
+}
+.button span
+{
+	font-size:25px;
+	color:#17376a;
+	font-weight:bold;
+}
+.button:hover
+{
+	background-color:#17376a;
+	color:#fff;
+}
+.button:hover span
+{
+	color:#f29d0c;
+}
+
+
+/* Mobile devices */
+@media only screen and (max-width: 1110px) {
+	.container{
+		width:100%;
+	}
+}
+header
+{
+	position: fixed;
+  top: 0;
+  width: 100%;
+}
